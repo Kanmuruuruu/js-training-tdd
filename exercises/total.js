@@ -7,6 +7,10 @@
  */
 
 // Your code:
+function total(arr){
+    const reducer = (accu,currentValue) => accu + currentValue;
+    return arr.reduce(reducer);
+}
 
 //* Begin of tests
 const assert = require('assert');

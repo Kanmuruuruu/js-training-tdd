@@ -8,6 +8,19 @@
  */
 
 // Your code:
+function sign(x){
+    if (x==0){
+        return 0;
+    }
+    else{
+        return x>0 ? 1 : -1;
+    }
+}
+
+function sameSign(a,b){
+    return sign(a)==sign(b);
+}
+
 
 //* Begin of tests
 const assert = require('assert');

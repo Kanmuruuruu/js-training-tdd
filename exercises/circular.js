@@ -3,11 +3,16 @@
 /*
  * Create an object named `circular` that has a property named `circular` with
  * itself as the value
- *
+ 
  * @notions Data-Structures, Get, Set
  */
 
 // Your code:
+const circular = {
+    name: 'gautier'
+}
+
+const c = Object.create(circular);
 
 //* Begin of tests
 const assert = require('assert');
